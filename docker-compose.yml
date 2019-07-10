@@ -1,0 +1,86 @@
+version: '3.7'
+
+services:
+  # 2sar:
+  #   image: ${DOCKER_REGISTRY-}2sar
+  #   ports:
+  #     - '5000:5000'
+  #     - '5001:5001'
+  #   build:
+  #     context: .
+  #     dockerfile: SAR/Dockerfile
+
+  # 3timer:
+  #   image: ${DOCKER_REGISTRY-}3timer
+  #   build:
+  #     context: .
+  #     dockerfile: Timer/Dockerfile
+
+
+  # 4auditlog:
+  #   image: ${DOCKER_REGISTRY-}4auditlog
+  #   build:
+  #     context: .
+  #     dockerfile: AuditLog/Dockerfile
+
+
+  # 1hidroweb:
+  #   image: ${DOCKER_REGISTRY-}1hidroweb
+  #   build:
+  #     context: .
+  #     dockerfile: Hidroweb/Dockerfile
+
+  sql_server_local:
+    container_name: sql_server_local
+    image: mcr.microsoft.com/mssql/server:2017-latest-ubuntu
+    environment:
+        ACCEPT_EULA: Y
+        SA_PASSWORD: 'Password123'
+        MSSQL_PID: 'Express'
+        TZ: 'America/Sao_Paulo'
+    ports:
+        - '1433:1433'
+    build:
+      context: ./db
+    depends_on:
+      - rabbitmq
+    stdin_open: true
+    tty: true
+  rabbitmq:
+    image: rabbitmq:3-management
+    hostname: rabbitmq
+    ports:
+      - '15672:15672'
+      - '5672:5672'
+    build:
+      context: .
+      dockerfile: RabbitMq/DockerFile
+    stdin_open: true
+    tty: true
+  auditoria:
+    container_name: Auditoria_ned
+    ports:
+      - '5003:80'
+    depends_on:
+    - rabbitmq
+    build:
+      context: ./Auditoria/
+    stdin_open: true
+    tty: true
+  ms1:
+    container_name: MS1_ned
+    ports:
+      - '5002:80'
+    build:
+      context: ./MS1
+    depends_on:
+      - rabbitmq
+    stdin_open: true
+    tty: true
+  # Ubuntu:
+  #   container_name: Ubuntu_ned
+  #   image: ubuntu:latest
+  #   stdin_open: true
+  #   tty: true
+  #   links:
+  #     - Rabbitmq:Rabbitmq

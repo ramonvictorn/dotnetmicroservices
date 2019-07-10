@@ -1,0 +1,6 @@
+C:\Users\ramon.nascimento\Documents\projects\ned\MS2\obj\Debug\netcoreapp2.2\MS2.csprojAssemblyReference.cache
+C:\Users\ramon.nascimento\Documents\projects\ned\MS2\obj\Debug\netcoreapp2.2\MS2.csproj.CoreCompileInputs.cache
+C:\Users\ramon.nascimento\Documents\projects\ned\MS2\obj\Debug\netcoreapp2.2\MS2.RazorAssemblyInfo.cache
+C:\Users\ramon.nascimento\Documents\projects\ned\MS2\obj\Debug\netcoreapp2.2\MS2.RazorAssemblyInfo.cs
+C:\Users\ramon.nascimento\Documents\projects\ned\MS2\obj\Debug\netcoreapp2.2\MS2.AssemblyInfoInputs.cache
+C:\Users\ramon.nascimento\Documents\projects\ned\MS2\obj\Debug\netcoreapp2.2\MS2.AssemblyInfo.cs

@@ -1,0 +1,14 @@
+C:\Users\ramon.nascimento\Documents\projects\ned\MS1\bin\Debug\netcoreapp2.2\MS1.deps.json
+C:\Users\ramon.nascimento\Documents\projects\ned\MS1\bin\Debug\netcoreapp2.2\MS1.runtimeconfig.json
+C:\Users\ramon.nascimento\Documents\projects\ned\MS1\bin\Debug\netcoreapp2.2\MS1.runtimeconfig.dev.json
+C:\Users\ramon.nascimento\Documents\projects\ned\MS1\bin\Debug\netcoreapp2.2\MS1.dll
+C:\Users\ramon.nascimento\Documents\projects\ned\MS1\bin\Debug\netcoreapp2.2\MS1.pdb
+C:\Users\ramon.nascimento\Documents\projects\ned\MS1\obj\Debug\netcoreapp2.2\MS1.csprojAssemblyReference.cache
+C:\Users\ramon.nascimento\Documents\projects\ned\MS1\obj\Debug\netcoreapp2.2\MS1.csproj.CoreCompileInputs.cache
+C:\Users\ramon.nascimento\Documents\projects\ned\MS1\obj\Debug\netcoreapp2.2\MS1.RazorAssemblyInfo.cache
+C:\Users\ramon.nascimento\Documents\projects\ned\MS1\obj\Debug\netcoreapp2.2\MS1.RazorAssemblyInfo.cs
+C:\Users\ramon.nascimento\Documents\projects\ned\MS1\obj\Debug\netcoreapp2.2\MS1.AssemblyInfoInputs.cache
+C:\Users\ramon.nascimento\Documents\projects\ned\MS1\obj\Debug\netcoreapp2.2\MS1.AssemblyInfo.cs
+C:\Users\ramon.nascimento\Documents\projects\ned\MS1\obj\Debug\netcoreapp2.2\MS1.RazorTargetAssemblyInfo.cache
+C:\Users\ramon.nascimento\Documents\projects\ned\MS1\obj\Debug\netcoreapp2.2\MS1.dll
+C:\Users\ramon.nascimento\Documents\projects\ned\MS1\obj\Debug\netcoreapp2.2\MS1.pdb

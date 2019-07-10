@@ -1,0 +1,11 @@
+C:\Users\ramon.nascimento\Documents\projects\ned\Auditoria\bin\Debug\netcoreapp2.2\Auditoria.deps.json
+C:\Users\ramon.nascimento\Documents\projects\ned\Auditoria\bin\Debug\netcoreapp2.2\Auditoria.runtimeconfig.json
+C:\Users\ramon.nascimento\Documents\projects\ned\Auditoria\bin\Debug\netcoreapp2.2\Auditoria.runtimeconfig.dev.json
+C:\Users\ramon.nascimento\Documents\projects\ned\Auditoria\bin\Debug\netcoreapp2.2\Auditoria.dll
+C:\Users\ramon.nascimento\Documents\projects\ned\Auditoria\bin\Debug\netcoreapp2.2\Auditoria.pdb
+C:\Users\ramon.nascimento\Documents\projects\ned\Auditoria\obj\Debug\netcoreapp2.2\Auditoria.csprojAssemblyReference.cache
+C:\Users\ramon.nascimento\Documents\projects\ned\Auditoria\obj\Debug\netcoreapp2.2\Auditoria.csproj.CoreCompileInputs.cache
+C:\Users\ramon.nascimento\Documents\projects\ned\Auditoria\obj\Debug\netcoreapp2.2\Auditoria.AssemblyInfoInputs.cache
+C:\Users\ramon.nascimento\Documents\projects\ned\Auditoria\obj\Debug\netcoreapp2.2\Auditoria.AssemblyInfo.cs
+C:\Users\ramon.nascimento\Documents\projects\ned\Auditoria\obj\Debug\netcoreapp2.2\Auditoria.dll
+C:\Users\ramon.nascimento\Documents\projects\ned\Auditoria\obj\Debug\netcoreapp2.2\Auditoria.pdb
